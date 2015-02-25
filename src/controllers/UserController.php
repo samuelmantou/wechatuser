@@ -44,6 +44,6 @@ class UserController extends BaseController {
     }
 
     public function logout(){
-        \AUTH::logout();
+        \Auth::logout();
     }
 }
